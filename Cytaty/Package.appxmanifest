@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+	<Identity Name="816d7ed3-b438-4c81-8e41-c078ccdcdfe2"
+            Publisher="CN=AUTOR"
+            Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Cytaty</DisplayName>
+    <PublisherDisplayName>AUTOR</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Cytaty.App">
+      <VisualElements DisplayName="Cytaty" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" 
+											Description="Cytaty" ForegroundText="light" BackgroundColor="#000000">
+        <DefaultTile ShowName="allLogos" ShortName="Cytaty" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
